@@ -13,8 +13,8 @@ from Tools.Import import my_import
 from Tools.LoadPixmap import LoadPixmap
 
 DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "delta-blackred-fhd/skin.xml" or "AREADELTASAT-FHD/skin.xml"  # SD hardware is no longer supported by the default skin.
-EMERGENCY_SKIN = "delta-blackred-fhd/skin.xml"
-EMERGENCY_NAME = "delta-blackred-fhd"
+EMERGENCY_SKIN = "skin_default/skin.xml"
+EMERGENCY_NAME = "Stone II"
 DEFAULT_DISPLAY_SKIN = "skin_default/skin_display.xml"
 USER_SKIN = "skin_user.xml"
 USER_SKIN_TEMPLATE = "skin_user_%s.xml"
