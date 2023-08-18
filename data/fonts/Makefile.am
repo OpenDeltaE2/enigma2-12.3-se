@@ -15,6 +15,7 @@ dist_install_DATA = \
         tiny.ttf \
         venus.ttf \
         error.ttf \
+        tuxtxt.ttf \
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
