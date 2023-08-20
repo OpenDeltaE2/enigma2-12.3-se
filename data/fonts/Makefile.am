@@ -13,8 +13,6 @@ dist_install_DATA = \
 	nmsbd.ttf \
         nmsbdh.ttf \
         tuxtxt.ttf \
-        error.ttf \
-        venus.ttf \	
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
