@@ -31,12 +31,13 @@ class About(Screen):
 		self.setTitle(_("About"))
 		hddsplit = parameters.get("AboutHddSplit", 1)
 
-		AboutText = _("Hardware: ") + about.getHardwareTypeString() + "\n"
 		cpu = about.getCPUInfoString()
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
-		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"
-		AboutText += _("Last update: 2024-03-18")  + "\n"
+		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"        
+		AboutText += _("Last update: 2024-06-03")  + "\n"
+		AboutText += _("Build Image: OpenDelta-Team") + "\n"
+		AboutText += _("Forum: https://areadeltasat.net") + "\n"
 
 		# [WanWizard] Removed until we find a reliable way to determine the installation date
 		# AboutText += _("Installed: ") + about.getFlashDateString() + "\n"
